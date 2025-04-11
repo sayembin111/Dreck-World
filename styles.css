@@ -1,0 +1,101 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1d1f21;
+    color: #fff;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.categories {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.categories button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.categories button:hover {
+    background-color: #e6b800;
+}
+
+.torrent-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.torrent-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.torrent-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.torrent-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    background-color: #1d1f21;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .about {
+    font-size: 14px;
+    color: #ccc;
+}

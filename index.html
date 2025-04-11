@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torrent Download Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Torrent Hub</div>
+        <input type="text" id="searchBar" placeholder="Search Torrents...">
+    </header>
+
+    <main>
+        <section class="categories">
+            <button>Movies</button>
+            <button>Games</button>
+            <button>Software</button>
+        </section>
+
+        <section class="torrent-list">
+            <div class="torrent-card">
+                <h3>Movie 1</h3>
+                <p>Size: 1.2 GB</p>
+                <button class="download-btn" onclick="window.location.href='torrent-file1.torrent'">Download</button>
+            </div>
+
+            <div class="torrent-card">
+                <h3>Game 1</h3>
+                <p>Size: 4.5 GB</p>
+                <button class="download-btn" onclick="window.location.href='torrent-file2.torrent'">Download</button>
+            </div>
+
+            <div class="torrent-card">
+                <h3>Software 1</h3>
+                <p>Size: 500 MB</p>
+                <button class="download-btn" onclick="window.location.href='torrent-file3.torrent'">Download</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="about">
+            <p>About this site: A simple torrent sharing platform. Created for fast, easy downloads.</p>
+            <p>&copy; 2025 Torrent Hub. All rights reserved.</p>
+        </section>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
